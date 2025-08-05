@@ -21,3 +21,4 @@ It is derived from the sw receiver, that one is more general and has more decode
 Two programs for weak signal detection are Qt-WSPR and Qt-FT8, decoders with a Qt-based front end,
 Input devices here are -again - SDRplay devices, Hackrf devices, (limited) DAB sticks and spyServer input.
 
+The repository contains some other programs as well, e.g. an Algol to C translato, some plugins for SDRuno, etc.
