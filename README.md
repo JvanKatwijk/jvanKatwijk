@@ -10,13 +10,15 @@ Qt-DAB is typically large and GUI based, dab-cmdline is command line based, just
 selecting a single service on a given channel.
 Some more DAB related programs are in other repositories
 
-fm-receiver is - again as the name suggests - an FM decoder, using Qt for the GUI.
+The second line is for drm (Digital Radio Mondiale) type decoders, the drm+ decoder is combined drm+ and fm, since both are
+(supposed to be) transmitted in the FM band (Here we do not receive drm+, so the decoder is tested with a very few recordings)
 
-drm-receiver tries to decode DRM (Digital Radio Mondiale) on shortwaves (a separate version exists for DRM+ on the FM band).
-The program takes samples from either an SDRplay device, a Hackrf device or a DABstick,
-and is now equipped with a client for a spyserver, a file reader (96000 S.s) and a reader for the audiocard.
+The drm-receiver tries to decode DRM30  on shortwaves
+Both programs take samples from either an SDRplay device, a Hackrf device or a DABstick,
+the DRM30 decoder (which I actually use to listen to DRM transmissions) is
+ now equipped with a client for a spyserver, a file reader (96000 S.s) and a reader for the audiocard.
 
-It is derived from the sw receiver, that one is more general and has more decoders
+The DRM30 decoder It is derived from the sw receiver, that one is more general and has more decoders
 
 Two programs for weak signal detection are Qt-WSPR and Qt-FT8, decoders with a Qt-based front end,
 Input devices here are -again - SDRplay devices, Hackrf devices, (limited) DAB sticks and spyServer input.
