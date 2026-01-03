@@ -19,7 +19,7 @@ Both programs (ie. the DRM receiver and the DRM+/FM receiver) take samples from 
 the DRM decoder (which I actually use to listen to DRM transmissions) is
 now equipped with a client for a spyserver, a file reader (96000 S.s) and a reader for the audiocard.
 
-The third line shows two of my other favorites, a program for FM decoding and a command line program for generating eti files
-(of course, Qt-DAB itself can also generate eti files).
+The third line shows a program for FM decoding and - under development - an sdrplay_tcp server -more or less - compatible with
+rtl_tcp (the main issue being the mapping from rtlsdr type gain settings to sdrplay gain reductions)
 
 The repository contains some other programs as well, e.g. an Algol to C translator, some plugins for SDRuno, etc.
